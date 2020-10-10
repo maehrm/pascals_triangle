@@ -1,5 +1,5 @@
 const width    = 800;
-const height   = 800;
+const height   = 600;
 const box_size = 16;
 const level    = 30;
 var   divisor  = 2;
@@ -26,8 +26,11 @@ function combination(n, r) {
     return ret / factrial(r);
 }
 
+let canvas;
+
 function setup() {
-    createCanvas(width, height);
+    canvas = createCanvas(width, height);
+    canvas.parent('canvas')
     noLoop();
 }
 

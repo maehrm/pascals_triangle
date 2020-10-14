@@ -2,7 +2,7 @@ const width    = 800;
 const height   = 600;
 const box_size = 16;
 const level    = 30;
-var   divisor  = 2;
+var   divisor  = 4;
 
 function factrial(n) {
     let ret = 1;
